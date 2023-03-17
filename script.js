@@ -1,3 +1,4 @@
+//habilidades
 ScrollReveal().reveal('.eventos', { delay: 100 });
 ScrollReveal().reveal('.html', { delay: 300 });
 ScrollReveal().reveal('.css', { delay: 500 });
@@ -7,7 +8,26 @@ ScrollReveal().reveal('.python', { delay: 1000 });
 ScrollReveal().reveal('.material', { delay: 1500 });
 ScrollReveal().reveal('.next', { delay: 1700 });
 
+//sobre
+ScrollReveal().reveal('.you-about', { delay: 200 });
+ScrollReveal().reveal('.p1', { delay: 400 });
+ScrollReveal().reveal('.p2', { delay: 500 });
+ScrollReveal().reveal('.p3', { delay: 600 });
+ScrollReveal().reveal('.redes', { delay: 700 });
+ScrollReveal().reveal('.ilustra', { delay: 300 });
 
+//projetos
+ScrollReveal().reveal('h3', { delay: 200 });
+ScrollReveal().reveal('.card-container', { delay: 400 });
+
+//contato
+ScrollReveal().reveal('.d-e', { delay: 300 });
+ScrollReveal().reveal('.d-n', { delay: 400 });
+ScrollReveal().reveal('.d-m', { delay: 500 });
+ScrollReveal().reveal('button', { delay: 600 });
+
+//footer
+ScrollReveal().reveal('.pzin', { delay: 200 });
 
 //EVENTOS DE MOUSE
 
