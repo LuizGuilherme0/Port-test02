@@ -1,0 +1,90 @@
+.brilho {
+    
+    color: white;
+    
+}
+
+span{
+    font-size: 2rem;
+}
+
+
+.brilho .s1{
+    animation:brilho 5s ease-in-out infinite;
+}
+
+.brilho .s1:nth-of-type(2){
+    animation-delay: 0.1s;
+}
+.brilho .s1:nth-of-type(3){
+    animation-delay: 0.20s;
+}
+.brilho .s1:nth-of-type(4){
+    animation-delay: 0.30s;
+}
+.brilho .s1:nth-of-type(5){
+    animation-delay: 0.40s;
+}
+.brilho .s1:nth-of-type(6){
+    animation-delay: 0.50s;
+}
+.brilho .s1:nth-of-type(7){
+    animation-delay: 0.60s;
+}
+.brilho .s1:nth-of-type(8){
+    animation-delay: 0.70s;
+}
+.brilho .s1:nth-of-type(9){
+    animation-delay: 0.80s;
+}
+.brilho .s1:nth-of-type(10){
+    animation-delay: 0.90s;
+}
+.brilho .s1:nth-of-type(11){
+    animation-delay: 1s;
+}
+.brilho .s1:nth-of-type(12){
+    animation-delay: 1.10s;
+}
+.brilho .s1:nth-of-type(13){
+    animation-delay:1.20s;
+}
+
+
+
+
+
+@keyframes brilho {
+    0%{
+        color:#00BFFF;
+        text-shadow: 0 0 12px #00BFFF,
+        0 0 50px white,
+        0 0 100px white;
+    }
+
+    10%, 90%{
+        color:white;
+        text-shadow:none;
+    }
+}
+
+
+@media (max-width: 485px) {
+    span{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 425px) {
+    span{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 385px) {
+    span{
+        font-size: 1rem;
+    }
+}
+

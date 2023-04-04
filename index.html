@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style.scss">
     <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="brilho.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Portfolio</title>
 </head>
@@ -22,14 +23,32 @@
 
     
     <header>
+        <div class="brilho">
+            <a class="logo" href="/">
+                <span class="s1">L</span>
+                    <span class="s1">u</span>
+                    <span class="s1">i</span>
+                    <span class="s1" style="letter-spacing:10px;" >z</span>                           
+                    <span class="s1">G</span>
+                    <span class="s1">u</span>
+                    <span class="s1">i</span>
+                    <span class="s1">l</span>
+                    <span class="s1">h</span>
+                    <span class="s1">e</span>
+                    <span class="s1">r</span>
+                    <span class="s1">m</span>
+                    <span class="s1">e</span>
+                    
+            </a>
+        </div>
         
-        <a href="#" class="logo">Luiz Guilherme</a>
+        
 
     <div id="menu-bar" class="fas fa-bars"></div>
 
     <nav class="navbar">
-        <a href="#home">home</a>
-        <a href="#about">about</a>
+        <a href="#home">Inicio</a>
+        <a href="#about">Sobre</a>
         <a href="#Projetos">Projetos</a>
         <a href="#habilidades">Habilidades</a>
         <a href="#contato">Contato</a>
@@ -44,10 +63,10 @@
     
             <h2>Olá 👋, muito prazer</h2>
             <h1>sou Luiz Guilherme</h1>
-            <h2>Front-end Developer</h2>
+            <h2 class="eu">Front-end Developer</h2>
             <div class="social-media">
-                <a href="#">Linkedin</a>
-                <a href="#">GitHub</a>
+                <a href="https://www.linkedin.com/in/luiz-guilherme-1b509723b/" target="_blank">Linkedin</a>
+                <a href="https://github.com/LuizGuilherme0" target="_blank">GitHub</a>
             </div>
         </section>
         </div>
@@ -76,7 +95,7 @@
                 </p>
                 <div>
                     <div class="redes">
-                        <a class="a-a" rel="noopener" href="https://luizguilherme0.github.io/Curriculo-online/" target="_blank"><img class="a-img" src="./Imagens/download-cloud.svg" alt="download"><p class="a-p">Curriculo</p></a>
+                        <a class="a-a" rel="noopener" href="https://luizguilherme0.github.io/Curriculo-online/" target="_blank"><p class="a-p">Curriculo</p><span class="ponto2" >.</span><img class="a-img" src="./Imagens/cloud-arrow-down-fill.svg" alt="download"></a>
                         
                     </div>
                 </div>
@@ -86,20 +105,22 @@
     </section>
 
     <main class="container" id="Projetos">
-        <h3>projetos mais recentes</h3>
+        <h3 class="pr">projetos mais recentes</h3>
         <!--Card 1-->
         <div class="card-container">
             <div class="card-text">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste veritatis ipsam ipsa hic id minus, voluptas ipsum, voluptatum, voluptates optio error eveniet assumenda placeat sit facilis animi fugit molestias nam. 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus provident architecto aperiam, perferendis dolores consequatur deserunt cumque ea voluptatem asperiores molestiae, repudiandae dolore numquam minima soluta sit labore illo dolor.
+                O desenvolvimento do web site estava voltado para uma maior agilidade e rapidez no atendimento dos clientes.
+                Além do que, o menu também poder ser migrado para outras regiões onde teria outros estabecimentos relacionados a empresa.
+                Utilizando Html, Css e JavaScript
             </div>
             <a href="https://github.com/Nitierk/MenuVirtual/tree/main/Projeto%20Lunary" target="_blank">
 
                 <div class="card">
+                    
                     <div class="card-wrapper">
                         
                         <h2 class="p-titulo">Menu Virtual</h2>
-                        <p class="p-detalhes">Ver mais</p>
+                        <p class="p-detalhes">Click para mais detalhes</p>
                     </div>
                 </div>
             </a>
@@ -107,30 +128,31 @@
 
         <!--Card 2-->
         <div class="card-container">
-            <div class="card">
+            <div class="card2">
                 <div class="card-wrapper">
                     <h2 class="p-titulo">SpiderMan</h2>
-                    <p class="p-detalhes">Veja Mais</p>
+                    <p class="p-detalhes">Click para mais detalhes</p>
+                    
                 </div>
             </div>
             <div class="card-text">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste veritatis ipsam ipsa hic id minus, voluptas ipsum, voluptatum, voluptates optio error eveniet assumenda placeat sit facilis animi fugit molestias nam. 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus provident architecto aperiam, perferendis dolores consequatur deserunt cumque ea voluptatem asperiores molestiae, repudiandae dolore numquam minima soluta sit labore illo dolor.
+                Site baseado em mostrar os 3 Homens Aranhas, com os seus trailers separadamente, além de conter alguns textos explicativos.
+                O site tem algumas transições bem legais, utilizando Html, Css e JavaScript.
             </div>
         </div>
 
         <!--Card 3-->
         <div class="card-container">
             <div class="card-text">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste veritatis ipsam ipsa hic id minus, voluptas ipsum, voluptatum, voluptates optio error eveniet assumenda placeat sit facilis animi fugit molestias nam. 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus provident architecto aperiam, perferendis dolores consequatur deserunt cumque ea voluptatem asperiores molestiae, repudiandae dolore numquam minima soluta sit labore illo dolor.
+                Mini curriculo mostrando minhas Skills, idiomas, sobre minha pessoa, experiência, formação acadêmica e projetos.
+                Utilizando Html e Css.
             </div>
             <a href="https://luizguilherme0.github.io/Curriculo-online/" target="_blank">
 
-                <div class="card">
+                <div class="card3">
                     <div class="card-wrapper">
                         <h2 class="p-titulo">Currículo online</h2>
-                        <p class="p-detalhes">Veja Mais</p>
+                        <p class="p-detalhes">Click para mais detalhes</p>
                     </div>
                 </div>
             </a>
@@ -140,17 +162,20 @@
         <div class="card-container">
             <a href="https://github.com/LuizGuilherme0/Verificador_de_idade" target="_blank">
 
-                <div class="card">
+                <div class="card4">
                     <div class="card-wrapper">
                         <h2 class="p-titulo">Verificador de idade</h2>
-                        <p class="p-detalhes">Veja Mais</p>
+                        <p class="p-detalhes">Click para mais detalhes</p>
                     </div>
                 </div>
             </a>
             <div class="card-text">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste veritatis ipsam ipsa hic id minus, voluptas ipsum, voluptatum, voluptates optio error eveniet assumenda placeat sit facilis animi fugit molestias nam. 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus provident architecto aperiam, perferendis dolores consequatur deserunt cumque ea voluptatem asperiores molestiae, repudiandae dolore numquam minima soluta sit labore illo dolor.
+                Projeto que mostra a sua idade ao digitar o ano em que você nasceu e tambem o seu sexo. Utilizando Html, Css e JavaScript
             </div>
+        </div>
+
+        <div class="div-rep">
+            <a class="repo" href="https://github.com/LuizGuilherme0?tab=repositories" target="_blank">Ver Repositórios<span class="ponto">.</span><img src="/Imagens/arrow-up-right-square-fill.svg" alt=""></a>
         </div>
     </main>
 

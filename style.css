@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 
 :root{
@@ -29,6 +31,29 @@ body{
     font-family: sans-serif;
     text-decoration: none;
     
+}
+
+.eu{
+  color: #00FF7F;
+}
+
+/*botao ver reposiorios */
+.div-rep{
+  padding:2rem 0;
+}
+
+.repo{
+  background:#00FF7F;
+  border: 13px solid #00FF7F;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-family: 'Bangers', cursive;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.ponto{
+  color: #00FF7F;
 }
 
 /*menu */
@@ -96,7 +121,7 @@ header .navbar a:hover{
 }
 
 .conteudo img{
-  padding-top: 50px;
+  padding-top: 55px;
 }
 
 h1, h2{
@@ -201,9 +226,6 @@ h1, h2{
     font-family: 'Poppins', sans-serif;
   }
   
-  
-  
-  
   /*Essa é a principal do button*/
   .about .a-container .text-about div .redes .a-a {
     display: -webkit-box;
@@ -219,13 +241,19 @@ h1, h2{
     display: flex;
     align-items: center;
     margin-right: 20px;
-    width: 180px;
+    width: 150px;
     border: 2px solid #00FF7F; 
        text-decoration: none;
-       background-color: var(--royal-blue-dark);
-       color: white;
+       background-color: #00FF7F;
+       color: purple;
        border-radius: 15px;
+       font-family: 'Bangers', cursive;
+       font-size: 20px;
   }
+
+.ponto2{
+  color: #00FF7F;
+}
   
   
 
@@ -236,16 +264,22 @@ h3{
     font-size: 24px;
     font-family: 'Tilt Neon', cursive;
     font-weight: bold;
+    padding-top: 4rem;
 }
 
 .p-titulo{
-    color: var(--royal-blue-dark);
+    color: #00FF7F;
     font-weight: bold;
+    /*font-family: 'Bangers', cursive;*/
 }
 
 .p-detalhes{
+  background: #00FF7F;
+  border-radius: 10px;
+  border: solid 7px  #00FF7F;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
+    color:var(--royal-blue-dark);
 }
 
 .container{
@@ -270,7 +304,7 @@ h3{
     height: 300px;
     width: 400px;
     margin: 3rem 0 0;
-    background-image: url('./Imagens/pexels-baskin-creative-studios-1576667.jpg');
+    background-image: url('./Imagens/lunary.PNG');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -286,6 +320,72 @@ h3{
     cursor: pointer;
     transition: 0.3s;
     margin-bottom: 5px;
+}
+
+.card2{
+  height: 300px;
+  width: 400px;
+  margin: 3rem 0 0;
+  background-image: url('./Imagens/spiderman.PNG');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  border: inset 7px rgb(42, 157, 177);
+  border-top-width: 10px;
+  border-bottom-width: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: grayscale(0.5);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom: 5px;
+}
+
+.card3{
+  height: 300px;
+  width: 400px;
+  margin: 3rem 0 0;
+  background-image: url('./Imagens/curriculo4.PNG');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  border: inset 7px rgb(42, 157, 177);
+  border-top-width: 10px;
+  border-bottom-width: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: grayscale(0.5);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom: 5px;
+}
+
+.card4{
+  height: 300px;
+  width: 400px;
+  margin: 3rem 0 0;
+  background-image: url('./Imagens/verificador-de-idade.PNG');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  border: inset 7px rgb(42, 157, 177);
+  border-top-width: 10px;
+  border-bottom-width: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: grayscale(0.5);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom: 5px;
 }
 
 .card-text{
@@ -327,9 +427,8 @@ h3{
 }
 
 .card-wrapper p{
-    font-size: 0;
-    visibility: hidden;
-    opacity: 0;
+    font-size: 14px;
+    
     font-weight: bold;
     text-transform: uppercase;
     transition: 0.3s;
@@ -341,10 +440,46 @@ h3{
     height: 250px;
 }
 
+.card2:hover > .card-wrapper::before{
+  opacity: 1;
+  width: 350px;
+  height: 250px;
+}
+
+.card3:hover > .card-wrapper::before{
+  opacity: 1;
+  width: 350px;
+  height: 250px;
+}
+
+.card4:hover > .card-wrapper::before{
+  opacity: 1;
+  width: 350px;
+  height: 250px;
+}
+
 .card:hover > .card-wrapper p{
-    font-size: 14px;
+    font-size: 16px;
     opacity: 1;
     visibility: visible;
+}
+
+.card2:hover > .card-wrapper p{
+  font-size: 16px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.card3:hover > .card-wrapper p{
+  font-size: 16px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.card4:hover > .card-wrapper p{
+  font-size: 16px;
+  opacity: 1;
+  visibility: visible;
 }
 
 /*skills*/
@@ -543,6 +678,36 @@ button:hover{
   .conteudo{
     padding-top: 55px;
   }
+
+  #menu-bar{
+    display: block;
+  }
+
+  header .navbar{
+    position: absolute;
+    top:100%; left: 0; right:0;
+    background:var(--black);
+    border-top: .1rem  solid #fff3;
+    padding:1rem 2rem;
+    clip-path:polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  header .navbar.nav-toggle{
+    clip-path:polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  header .navbar a{
+    display: block;
+    margin:1.5rem 0;
+    padding:1rem;
+    background:var(--gradient);
+    text-align: center;
+    border-radius: .5rem;
+  }
+
+  header .navbar a:hover{
+    color:var(--black);
+  }
 }
 
 @media (max-width: 1024px) {
@@ -701,6 +866,21 @@ button:hover{
         width: 250px;
     }
 
+    .card2{
+      height: 250px;
+      width: 250px;
+  }
+
+  .card3{
+    height: 250px;
+    width: 250px;
+}
+
+.card4{
+  height: 250px;
+  width: 250px;
+}
+
     .card-text{
         width: 90%;
         margin-top: 2rem;
@@ -713,6 +893,21 @@ button:hover{
         width: 220px;
     }
 
+    .card2:hover > .card-wrapper::before{
+      height: 100px;
+      width: 220px;
+  }
+
+  .card3:hover > .card-wrapper::before{
+    height: 100px;
+    width: 220px;
+}
+
+.card4:hover > .card-wrapper::before{
+  height: 100px;
+  width: 220px;
+}
+
     .card-wrapper h2{
         font-size: 30px;
     }
@@ -722,39 +917,14 @@ button:hover{
 
 
 @media (max-width: 768px) {
+  .pr{
+    padding-top: 7rem;
+  }
   .conteudo{
     padding-top: 5.5rem;
   }
 
-  #menu-bar{
-    display: block;
-  }
-
-  header .navbar{
-    position: absolute;
-    top:100%; left: 0; right:0;
-    background:var(--black);
-    border-top: .1rem  solid #fff3;
-    padding:1rem 2rem;
-    clip-path:polygon(0 0, 100% 0, 100% 0, 0 0);
-  }
-
-  header .navbar.nav-toggle{
-    clip-path:polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  }
-
-  header .navbar a{
-    display: block;
-    margin:1.5rem 0;
-    padding:1rem;
-    background:var(--gradient);
-    text-align: center;
-    border-radius: .5rem;
-  }
-
-  header .navbar a:hover{
-    color:var(--black);
-  }
+  
 
     /*SOBRE DA PÁGINA  */
   .about {
@@ -1014,4 +1184,10 @@ button:hover{
         color: white;
         padding: 5px;
       }
+}
+
+@media (max-width: 360px){
+  .pr {
+    padding-top: 8rem;
+  }
 }
