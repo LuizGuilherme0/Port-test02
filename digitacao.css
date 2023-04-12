@@ -1,0 +1,29 @@
+.eu{
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+}
+
+.typing-animation{
+    animation: cursort 500ms steps(40) infinite normal, typing 4s steps(40) 1s normal,
+    both;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 21rem;
+    }
+}
+
+@keyframes cursort{
+    from{
+        border-right-color:rgba(255, 255, 255, 0.75)
+    }
+    to{
+        display: none;
+    }
+}
