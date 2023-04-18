@@ -59,37 +59,37 @@ next.addEventListener('mouseout', sairNext)
 
 //DECLARANDO FUNCTIONS
 function entrarHtml(){
-evento.innerText = 'Tenho contato com o HTML desde 2021, quando iniciei o meu curso técnico. O HTML é a base de todo sistema web, é com ele que adicionamos em nossa página os Textos, Imagens, Formulários, Vídeos e etc.'
+evento.innerText = 'Tenho contato com o HTML desde 2021, quando iniciei o meu curso técnico.'
 }
 function sairHtml(){
 evento.innerText = "Passe o cursor ou click"
 }
 function entrarCss(){
-evento.innerText = 'Conheci o CSS em 2022 e de lá para cá venho cada vez mais tentar aprender e conhecer melhor a mesma, foi uma técnologia que eu particularmente gostei muito. Com o CSS adicionamos estilos em nossa página: Cores, Tamanhos, Posicionamentos Sombras, Grids, Efeitos, Animações e etc.'
+evento.innerText = 'Conheci o CSS em 2022 e de lá para cá venho cada vez mais tentar aprender e conhecer melhor a mesma.'
 }
 function sairCss(){
 evento.innerText = "Passe o cursor ou click"
 }
 function entrarJs(){
-evento.innerText = 'Uso JS desde 2022, não é uma linguagem de domínio ainda, mas acho incrível o que JS pode fazer em seu projeto com toda sua capacidade e dinâmica. Com o Javascript as possibilidades são imensas, validar formularios, processar dados, manipular elementos na tela, consultar APIs, etc.'
+evento.innerText = 'Uso JS desde 2022, não é uma linguagem de domínio ainda, mas acho incrível o que JS pode fazer em seu projeto.'
 }
 function sairJs(){
 evento.innerText = "Passe o cursor ou click"
 }
 function entrarC(){
-evento.innerText = ' O C# é a minha linguagem mais antiga, uso ela desde 2021. O C# uma linguagem de programação orientada a objetos e orientada a componentes. C# fornece construções de linguagem para dar suporte diretamente a esses conceitos, tornando C# uma linguagem natural para criação e uso de componentes de software.'
+evento.innerText = ' O C# é a minha linguagem mais antiga, uso ela desde 2021.'
 }
 function sairC(){
 evento.innerText = "Passe o cursor ou click"
 }
 function entrarPython(){
-evento.innerText = 'Achei o Python bem legal e desde 2022 venho procurando entender melhor sobre ela e praticando também. É uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.'
+evento.innerText = 'Achei o Python bem legal e desde 2022 venho procurando entender melhor sobre ela e praticando também.'
 }
 function sairPython(){
 evento.innerText = "Passe o cursor ou click"
 }
 function entrarMaterial(){
-evento.innerText = 'Biblioteca de componentes React para um desenvolvimento ágil e fácil. O Material.ui é usado por grande empresas como Nasa, Walmart, Netflix, Amazon, Spotify, entre outras.'
+evento.innerText = 'Biblioteca de componentes React para um desenvolvimento ágil e fácil.'
 }
 function sairMaterial(){
 evento.innerText = "passe o cursor no card para ler"

@@ -249,21 +249,26 @@
         <section class="contato" id="contato">
             <h3 class="ctt">contato</h3>
 
-            <form action="#">
+            <form action="http://formsubmit.co/luizguilhermeguilherme0@gmail.com" method="POST">
                 <div class="input-box">
-                    <input type="text" placeholder="Nome">
-                    <input type="email" placeholder="Email">
+                    <input type="text" name="name" placeholder="Nome" required>
+                    <input type="email" name="email" placeholder="Email" required>
                 </div>
 
                 <div class="input-box">
-                    <input type="number" placeholder="Número">
-                    <input type="text" placeholder="Adicional">
+                    <input type="number" name="numero" placeholder="Número" required>
+                    <input type="text" name="add" placeholder="Adicional" required>
                 </div>
 
-                <textarea name="" id="" cols="30" rows="10" placeholder="sua mensagem"></textarea>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="sua mensagem" target="_blank"></textarea>
                 <div class="div-rep2">
-
+                   
                     <input type="submit" value="Enviar Mensagem" class="btn" id="repo2">
+
+                    <input type="hidden" name="_subject" value="Novo Contato!">
+                    <input type="text" name="_honey" style="display: none;">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5501/thanks.html">
                 </div>
             </form>
         </section>

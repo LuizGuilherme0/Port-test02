@@ -148,6 +148,19 @@ header .navbar a:hover{
 
 .conteudo img{
   padding-top: 55px;
+  animation: floatimage 4s ease-in-out infinite;
+}
+
+@keyframes floatimage{
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-1.2rem);
+  }
+  100%{
+    transform: translateY(0);
+  }
 }
 
 h1, h2{
@@ -333,7 +346,7 @@ h3{
     height: 300px;
     width: 400px;
     margin: 3rem 0 0;
-    background-image: url('./Imagens/lunary.PNG');
+    background-image: url('./Imagens/como-comecar-a-programar-1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -355,7 +368,7 @@ h3{
   height: 300px;
   width: 400px;
   margin: 3rem 0 0;
-  background-image: url('./Imagens/spiderman.PNG');
+  background-image: url('./Imagens/ESEG-PROGRAMAÇÃO-WEB-780x450.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -377,7 +390,7 @@ h3{
   height: 300px;
   width: 400px;
   margin: 3rem 0 0;
-  background-image: url('./Imagens/curriculo4.PNG');
+  background-image: url('./Imagens/quais-linguagens-programacao-aprender-2.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -399,7 +412,7 @@ h3{
   height: 300px;
   width: 400px;
   margin: 3rem 0 0;
-  background-image: url('./Imagens/verificador-de-idade.PNG');
+  background-image: url('./Imagens/images.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -590,8 +603,8 @@ h3{
   }
   
   .habilidades .container-habilidades .habi .box:hover {
-    -webkit-box-shadow: 2px 2px 10px crimson;
-            box-shadow: 2px 2px 10px crimson;
+    -webkit-box-shadow: 2px 2px 10px #00BFFF;
+            box-shadow: 2px 2px 10px #00BFFF;
   }
   
   .habilidades .container-habilidades .habi .box img {
@@ -792,7 +805,7 @@ button:hover{
     display: block;
     margin:1.5rem 0;
     padding:1rem;
-    background:var(--gradient);
+    background:#00BFFF;
     text-align: center;
     border-radius: .5rem;
   }
